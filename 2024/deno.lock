@@ -1,0 +1,23 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:pathfinding@*": "0.4.18",
+    "npm:pathfinding@~0.4.18": "0.4.18"
+  },
+  "npm": {
+    "heap@0.2.5": {
+      "integrity": "sha512-G7HLD+WKcrOyJP5VQwYZNC3Z6FcQ7YYjEFiFoIj8PfEr73mu421o8B1N5DKUcc8K37EsJ2XXWA8DtrDz/2dReg=="
+    },
+    "pathfinding@0.4.18": {
+      "integrity": "sha512-R0TGEQ9GRcFCDvAWlJAWC+KGJ9SLbW4c0nuZRcioVlXVTlw+F5RvXQ8SQgSqI9KXWC1ew95vgmIiyaWTlCe9Ag==",
+      "dependencies": [
+        "heap"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:pathfinding@~0.4.18"
+    ]
+  }
+}
